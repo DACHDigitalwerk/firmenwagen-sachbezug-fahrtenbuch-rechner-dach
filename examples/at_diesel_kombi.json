@@ -1,0 +1,13 @@
+{
+  "description": "Österreichischer Firmenwagen mit Standard-CO2 (> 121 g/km, 2,0 % Sachbezug)",
+  "country": "AT",
+  "gross_list_price": 42000.0,
+  "vehicle_type": "ice",
+  "co2_g_km": 138.0,
+  "is_half_sachbezug": false,
+  "total_annual_costs": 11200.0,
+  "total_annual_km": 32000.0,
+  "private_km_annual": 7500.0,
+  "tax_rate": 0.40,
+  "co_payment_monthly": 0.0
+}
