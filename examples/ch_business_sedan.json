@@ -1,0 +1,12 @@
+{
+  "description": "Schweizer Geschäftsfahrzeug nach ESTV Lohnausweis-Wegleitung (0,9 % p.M.)",
+  "country": "CH",
+  "gross_list_price": 68000.0,
+  "vehicle_type": "ice",
+  "distance_km": 25.0,
+  "total_annual_costs": 14500.0,
+  "total_annual_km": 35000.0,
+  "private_km_annual": 8000.0,
+  "tax_rate": 0.28,
+  "co_payment_monthly": 100.0
+}
