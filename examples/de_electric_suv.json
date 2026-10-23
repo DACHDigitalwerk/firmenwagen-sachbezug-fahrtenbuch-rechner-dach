@@ -1,0 +1,13 @@
+{
+  "description": "Deutsches Elektrofahrzeug unter 70.000 € BLP (0,25 % Besteuerung)",
+  "country": "DE",
+  "gross_list_price": 64900.0,
+  "vehicle_type": "bev",
+  "distance_km": 18.0,
+  "commute_days_annual": 210,
+  "total_annual_costs": 9500.0,
+  "total_annual_km": 28000.0,
+  "private_km_annual": 4500.0,
+  "tax_rate": 0.42,
+  "co_payment_monthly": 0.0
+}
