@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "firmenwagen-dach"
+version = "1.0.0"
+description = "DACH Firmenwagen-, 1%-Regelung- & Fahrtenbuch-Vergleichsrechner 2026 (DE § 6 EStG, AT § 4 SBV, CH ESTV 0,9%)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "DACH Digitalwerk", email = "dach.digitalwerk@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+
+[project.urls]
+Homepage = "https://dach-digitalwerk.netlify.app/firmenwagen-1-prozent-fahrtenbuch-rechner/"
+Repository = "https://github.com/DACHDigitalwerk/firmenwagen-sachbezug-fahrtenbuch-rechner-dach"
+Issues = "https://github.com/DACHDigitalwerk/firmenwagen-sachbezug-fahrtenbuch-rechner-dach/issues"
+
+[project.scripts]
+dach-firmenwagen = "firmenwagen_dach.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
